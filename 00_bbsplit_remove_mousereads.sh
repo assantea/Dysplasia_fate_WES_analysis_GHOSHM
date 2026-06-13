@@ -18,11 +18,11 @@ HUMAN_REF=/path/to/igenomes/Homo_sapiens/GATK/GRCh38/Sequence/WholeGenomeFasta/H
 MOUSE_REF=/path/to/igenomes/Mus_musculus/Ensembl/GRCm38/Sequence/WholeGenomeFasta/genome.fa
 
 # Loop through all Read 1 files
-for r1 in *_R1_001.fastq.gz; do
+for r1 in *_R1.fastq.gz; do
     # Define Read 2
-    r2="${r1/_L002_R1_001.fastq.gz/_L002_R2_001.fastq.gz}"
+    r2="${r1/_R1.fastq.gz/_R2.fastq.gz}"
     # Base output name
-    base_name="${r1%_L002_R1_001.fastq.gz}"
+    base_name="${r1%_R1.fastq.gz}"
     echo "Processing sample: $base_name"
     bbsplit.sh \
         in1="$r1" \
