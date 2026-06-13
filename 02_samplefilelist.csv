@@ -1,0 +1,11 @@
+patient,sample,status,lane,fastq_1,fastq_2
+p01,220754_RB6_LowSR,1,lane_2,/path/to/p01_220754_RB6_LowSR_human_R1.fastq.gz,/path/to/p01_220754_RB6_LowSR_human_R2.fastq.gz
+p02,108159_LUL_LowSR,1,lane_2,/path/to/p02_108159_LUL_LowSR_human_R1.fastq.gz,/path/to/p02_108159_LUL_LowSR_human_R2.fastq.gz
+p03,220578_LUL_LowSR,1,lane_2,/path/to/p03_220578_LUL_LowSR_human_R1.fastq.gz,/path/to/p03_220578_LUL_LowSR_human_R2.fastq.gz
+p04,217788_LB89_LowSR,1,lane_2,/path/to/p04_217788_LB89_LowSR_human_R1.fastq.gz,/path/to/p04_217788_LB89_LowSR_human_R2.fastq.gz
+p05,220597_MCC_LowSR,1,lane_2,/path/to/p05_220597_MCC_LowSR_human_R1.fastq.gz,/path/to/p05_220597_MCC_LowSR_human_R2.fastq.gz
+p06,220713_RB6_LowSR,1,lane_2,/path/to/p06_220713_RB6_LowSR_human_R1.fastq.gz,/path/to/p06_220713_RB6_LowSR_human_R2.fastq.gz
+p07,220742_LUL_HighSR,1,lane_2,/path/to/p07_220742_LUL_HighSR_human_R1.fastq.gz,/path/to/p07_220742_LUL_HighSR_human_R2.fastq.gz
+p08,220514_LUL_HighSR,1,lane_2,/path/to/p08_220514_LUL_HighSR_human_R1.fastq.gz,/path/to/p08_220514_LUL_HighSR_human_R2.fastq.gz
+p09,220884_LUL_HighSR,1,lane_2,/path/to/p09_220884_LUL_HighSR_human_R1.fastq.gz,/path/to/p09_220884_LUL_HighSR_human_R2.fastq.gz
+p09,220884_LB6_HighSR,1,lane_2,/path/to/p09_220884_LB6_HighSR_human_R1.fastq.gz,/path/to/p09_220884_LB6_HighSR_human_R2.fastq.gz
